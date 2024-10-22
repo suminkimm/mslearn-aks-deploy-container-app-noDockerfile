@@ -41,13 +41,13 @@ env:
   ACR_RESOURCE_GROUP: skimrg
   AZURE_CONTAINER_REGISTRY: skdemoacr
   CONTAINER_NAME: samples/contoso-website
-  CLUSTER_RESOURCE_GROUP: skimrg
-  CLUSTER_NAME: suminaks
+  CLUSTER_RESOURCE_GROUP: newskimrg
+  CLUSTER_NAME: newskauto
   DEPLOYMENT_MANIFEST_PATH: |
     ./kubernetes/deployment.yaml
   DOCKER_FILE: Dockerfile
   BUILD_CONTEXT_PATH: ./
-  NAMESPACE: namespace-workflow-1729289260740
+  NAMESPACE: namespace-workflow-1729555165336
 
 jobs:
   buildImage:
