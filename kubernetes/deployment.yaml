@@ -12,7 +12,7 @@ spec:
         app: contoso-website
     spec:
       containers:
-        - image: mcr.microsoft.com/mslearn/samples/contoso-website
+        - image: skadacrv3.azurecr.io/samples/contoso-website
           name: contoso-website
           resources:
             requests:
